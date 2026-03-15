@@ -1,0 +1,191 @@
+body{
+
+    text-align: center;
+    background-image: url(https://img.freepik.com/fotos-premium/vintage-estilo-arte-pop-habla-patron-vectorial-burbuja-fondo-estilo-comic-manga_941600-287104.jpg?semt=ais_rp_progressive&w=740&q=80);
+    background-size: cover;
+    background-color: black;
+    display: block;
+    
+}
+header{
+    background-color: #272525;
+    color: white;
+    padding: 20px;
+    
+    border-radius: 50px;
+    border: #fff solid 2px;
+    
+    margin-left: 100px;
+    margin-top: 80px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+main{
+   background-color: #232121;
+    color: white;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: #fff solid 2px;
+    box-shadow: #fff 0px 0px 10px;
+}
+#PagProducto{
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    background-color: #272525;
+    color: white;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+    margin-top: 10px;
+    border-radius: 50px;
+    border: #fff solid 2px;
+    box-shadow: #fff 0px 0px 10px;
+}
+
+.Producto img{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+
+}
+.Producto{
+    
+    border-radius: 50px;
+    border: #d1cece solid 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+.Producto:hover{
+    border: #fff solid 14px;
+    border-radius: 50px;
+    border: solid 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: #fff 0px 0px 5px;
+    text-shadow: #fff 0px 0px 2px;
+}
+.Producto button{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Producto button:hover{
+    background-color: #333;
+    border: solid 1px #fff;
+    font-size: 15px;
+}
+#regresar{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#regresar:hover{
+    background-color: #555;
+    border: solid 1px #fff;
+    font-size: 14px;
+}
+#Productinhos{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    gap: 50px;
+}
+#Productinhos h2{   
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Carrito, #Agregar{
+    background-color: #333;
+    color: white;
+    
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Carrito{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+#Carrito img{
+    width: 70px;    height: auto;
+    box-shadow: #272525 0px 0px 2px;
+    margin-left: 8PX;
+
+}
+#Carrito img:hover{
+    box-shadow: #fff 0px 0px 10px;
+    width: 75px;    height: auto;
+}
+#Carrito a, #Agregar a{
+    
+    
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#Carrito:hover, #Agregar:hover{
+    background-color: #555;
+    border: solid 2px #fff;
+    font-size: 16px;
+}
+
+
+.cart-count {
+            
+            
+            color: white;
+            border-radius: 50%;
+            width: 20px;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
