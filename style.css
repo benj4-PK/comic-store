@@ -189,3 +189,35 @@ footer{
             align-items: center;
             justify-content: center;
         }
+
+.btn-eliminar {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-eliminar:hover {
+    background-color: #c82333;
+    border: solid 1px #fff;
+}
+
+.btn-comprar {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-comprar:hover {
+    background-color: #218838;
+    border: solid 2px #fff;
+}
