@@ -11,7 +11,7 @@ $user_id = $_SESSION['user_id'];
 // Vaciar el carrito
 $sql = "DELETE FROM carrito WHERE ID_usuario = $user_id";
 if ($conn->query($sql) === TRUE) {
-    // Redirigir con mensaje
+    // Redirige con mensaje
     header('Location: productos.php?message=Compra realizada exitosamente');
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;

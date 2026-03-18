@@ -19,8 +19,8 @@
                 <input class="register-field" type="password" name="password" placeholder="Contraseña" required>
                 <button class="register-button" type="submit">Iniciar sesión</button>
             </form>
-            <p>¿No tienes cuenta? <a class="link-home" href="reg.php">Regístrate aquí</a></p>
-            <a class="link-home" href="index.html">Volver a la tienda</a>
+            <p>¿No tienes cuenta? <a class="link-home" href="index.php">Regístrate aquí</a></p>
+            <a class="link-home" href="inicio.php">Volver a la tienda</a>
         </section>
     </main>
 </body>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>pagina de productos</title>
 </head>
 <body>
     <?php
@@ -154,7 +154,7 @@
         <p>Jose Ariel Paredes</p>
         <p>Emmanuel Villa</p>
         <p>Benjamin Latella</p>
-    <button id="regresar"><a href="index.html">Regresar</a></button>
+    <button id="regresar"><a href="inicio.html">Regresar</a></button>
     </footer>
     <script>
         document.querySelectorAll('form[action="add_to_cart.php"]').forEach(form => {

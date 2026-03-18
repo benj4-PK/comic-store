@@ -25,7 +25,7 @@ if ($result && $result->num_rows > 0) {
     if ($password === $row['Constraseña']) {
         $_SESSION['user_id'] = $row['ID_usuario'];
         $_SESSION['usuario'] = $row['Usuario'];
-        header('Location: index.html');
+        header('Location: inicio.php');
         exit;
     } else {
         echo "Contraseña incorrecta.";

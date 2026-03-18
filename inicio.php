@@ -10,11 +10,11 @@
 
     <header>
         <h1>ComicsStore</h1>
-        <h3>Esta es un proyecto de pagina donde se puede comprar comics</h3>
+        <h3>Bienvenido/a <?php  ?></h3>
     </header>
 
     <main>
-        <h2>Bienvenido a ComicsStore</h2>
+        <h2>Esta es una pagina donde se puede comprar comics</h2>
         <div id="Logo">
             <img src="https://img.freepik.com/psd-gratis/efecto-texto-editable-estilo-comico_47987-27233.jpg?semt=ais_hybrid&w=740&q=80" alt="">
         </div>
