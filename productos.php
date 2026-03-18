@@ -34,7 +34,7 @@
 
         <h2>Productos disponibles</h2>
         <button id="Carrito"><a href="cart.php" class="cart-icon">🛒 Pedidos </a><span class="cart-count"><?php echo $total; ?></span><img src="img/dec7ce51d068c8378d8dc4c9b6f32372.jpg" alt="carrinho"></button>
-        <button id="Agregar"><a href="">Editar Productos</a></button>
+        <button id="nada" type="button" disabled></button>
         <div class="Producto">
             <h3>Spiderman Original Marvel Gold</h3>
             <img src="https://images.cdn3.buscalibre.com/fit-in/360x360/3c/47/3c47671432bb3b1a9824fff69e56a0cd.jpg" alt="">
