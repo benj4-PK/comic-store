@@ -274,3 +274,10 @@ footer{
         .success { color: #c6ffd7; }
         .link-home { margin-top: 12px; display: inline-block; color: #fff; text-decoration: none; border: 1px solid #fff; padding: 8px 14px; border-radius: 6px; }
         .link-home:hover { background: #fff; color: #000; }
+ table{
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+ }       
